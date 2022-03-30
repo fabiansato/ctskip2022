@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CTSKIP | Skip </title>
+
+
+    <script>
+      function cerrarformulario() { // cierra el formulario 
+    
+            div1 = document.getElementById('elformulario');
+            div1.style.display = 'none';
+    
+            div2 = document.getElementById('exito');
+            div2.style.display = 'block';
+    
+          
+          
+        }
+    
+        function aExito(){
+          window.location.replace("./exito.html");
+        }
+    
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta data para Ger-->
+    <meta name="keywords" content="Skip,Unilever,Argentina,Skip para Diluir">
+    <meta name="author" content="Fabian Sato">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.promounilever.com/ctskip" />
+    <!--Tags para Search Engine -->
+    <meta name="description" content="COMPLETÁ LOS DATOS DE TU SERVICE Y FORMÁ PARTE DEL MUNDO CTS"> 
+    <meta name="image" content="https://www.promounilever.com/ctskip/img/ogimage.jpg">
+    <!--  -->
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="COMPLETÁ LOS DATOS DE TU SERVICE Y FORMÁ PARTE DEL MUNDO CTS">
+    <meta itemprop="description" content="COMPLETÁ LOS DATOS DE TU SERVICE Y FORMÁ PARTE DEL MUNDO CTS">
+    <meta itemprop="image" content="https://www.promounilever.com/ctskip/img/ogimage.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Skip">
+    <meta name="twitter:description" content="COMPLETÁ LOS DATOS DE TU SERVICE Y FORMÁ PARTE DEL MUNDO CTS">
+    <meta name="twitter:site" content="@Skipargentina">
+    <!--Usuario de twitter-->
+    <meta name="twitter:creator" content="@Skipargentina">
+    <meta name="twitter:image:src" content="https://www.promounilever.com/ctskip/img/ogimage.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Skip">
+    <meta name="og:description" content="COMPLETÁ LOS DATOS DE TU SERVICE Y FORMÁ PARTE DEL MUNDO CTS">
+    <!-- DESCRIPCIÓN DEL ARTÍCULO, MÁXIMO 155 CARACTERES-->
+    <meta name="og:image" content="https://www.promounilever.com/ctskip/img/ogimage.jpg">
+    <!-- Link de la imagen del articulo -->
+    <meta name="og:url" content="https://www.promounilever.com/ctskip/index.html">
+    <!-- Link del articulo -->
+    <meta name="og:site_name" content="Skip">
+    <!-- Titulo del articulo-->
+    <meta name="og:locale" content="es_AR">
+    <meta name="og:type" content="article">
+    <!-- Open Graph - Article -->
+    <meta name="article:section" content="Social Media">
+    <meta name="article:author" content="Skip">
+    <meta name="article:tag" content="Social Media">
+    <!-- Termina Search Engine -->
+    <!-- Favicons -->
+    <link href="img/icons/favicon.png" rel="icon">
+    <link href="img/icons/favicon.png  " rel="apple-touch-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <!-- Bootstrap CSS -->
+  
+    
+      <!-- CSS only -->
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/checkboxes.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- back to top -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+
+
+  <style>
+  
+
+    </style>
+
+<script>
+  $(document).ready(function(){
+
+      //Check to see if the window is top if not then display button
+      $(window).scroll(function(){
+
+          // Show button after 100px
+          var showAfter = 100;
+          if ($(this).scrollTop() > showAfter) {                 
+              $('.back-to-top').fadeIn();
+          } else {   
+              $('.back-to-top').fadeOut();
+          }
+      });
+      
+      //Click event to scroll to top
+      $('.back-to-top').click(function(){
+          $('html, body').animate({scrollTop : 0},800);
+          return false;
+      });
+
+
+      function paraArriba(){
+          $('html, body').animate({scrollTop : 0},800);
+          return false;
+      }
+      
+  });
+  </script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="ocultarmostrar.js"> </script>
+  <!-- 
+
+  <script src="formulario.js"> </script>
+
+-->
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <script src="./ocultarmostrar.js"></script>
+  
+<!-- Inicio de analitics -->
+<!-- Google analytics  Code -->
+<script>(function (g, b, d, f) { (function (a, c, d) { if (a) { var e = b.createElement("style"); e.id = c; e.innerHTML = d; a.appendChild(e) } })(b.getElementsByTagName("head")[0], "at-body-style", d); setTimeout(function () { var a = b.getElementsByTagName("head")[0]; if (a) { var c = b.getElementById("at-body-style"); c && a.removeChild(c) } }, f) })(window, document, "body {opacity: 0 !important}", 3E3);
+</script>
+
+<script>
+  function isMobile() {
+  var check = false;
+                  (function(a) {
+                      if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i
+                              .test(a)
+                              || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i
+                                  .test(a.substr(0, 4))) {
+                          check = true;
+                      }
+                  })(navigator.userAgent || navigator.vendor || window.opera);
+                  return check;
+              }
+              var channelVal;
+    if (isMobile()) {
+      channelVal = "Mobile Site";
+    } else {
+      channelVal = "Brand Site";
+    }
+    digitalData = {
+      siteInfo: {
+        channel: '',
+        sitetype: 'Non-D2'
+      },
+      page: {
+        pageInfo: {
+          destinationURL: "https://ar-promo.unileverservices.com/"
+        },
+        category: {
+          pageType: "Form"
+        }
+      },
+      video: [],
+      campaign: [],
+      product: [],
+      privacy: {
+        accessCategories: [{
+          domains: []
+        }]
+      },
+      component: [],
+      trackingInfo: {
+        GID: '',
+        "un": "",
+        tool: [{
+          ids: ""
+        }]
+      },
+      promotion: []
+    }
+    digitalData.siteInfo.channel = channelVal;
+    digitalData.page.category.primaryCategory = channelVal;
+    digitalData.trackingInfo = {};
+    digitalData.trackingInfo.tool = [{}];
+    digitalData.trackingInfo.tool[0] = {};
+    digitalData.trackingInfo.tool[1] = {};
+    digitalData.privacy = {}; //Optional
+    digitalData.page.attributes = {};
+    digitalData.privacy.accessCategories = [{}]; //Optional
+    digitalData.privacy.accessCategories[0].domains = []; //Optional
+    digitalData.event = [];
+    digitalData.page.pageInfo.pageName = "Ctskip"; //Cambiar por nombre de pagina
+    digitalData.page.pageInfo.language = "es";
+    digitalData.page.category.subCategory1 = "/";
+    digitalData.page.attributes.contentType = "Form"; // To be set on each page change. Should contain 404
+    //for error pages
+    digitalData.page.attributes.articleName = "Ctskip"; //Cambiar por nombre de pagina
+    digitalData.page.attributes.brandCategory = 'Unilever'; //Cambiar por marca
+    digitalData.page.attributes.country = 'Argentina'; //Cambiar por país
+    digitalData.page.attributes.globalBrand = 'Unilever'; //Cambiar por marca
+    digitalData.page.attributes.localBrand = 'All brands'; //Cambiar por marca
+    //digitalData.user[n].profile[n].profileInfo.crmID = 'CRM ID'; //Optional
+    digitalData.trackingInfo.tool[0].id = "UA-69168250-13,G-7GV4QCGML9"; //Cambiar por tracking id PROD
+    digitalData.trackingInfo.tool[1].id = "unileverlatam-promo-allbrands-ar,unileverlatam-global-allbrands";
+    digitalData.siteInfo.internalDomain = "https://www.promounilever.com/ctskip";
+  
+    var ev = {};
+    ev.eventInfo = {
+      'type': ctConstants.trackEvent,
+      'eventAction': ctConstants.RegistrationStart,
+      'eventLabel': "https://www.promounilever.com/ctskip",
+      'eventValue': 1,
+    };
+    ev.category = { 'primaryCategory': ctConstants.engagement }
+    ev.subcategory = 'Lead';
+    ev.attributes = { 'nonInteractive': { 'nonInteraction': 1 } };
+    digitalData.event.push(ev);
+  
+    function googleCompleteRegistration() {
+      var ev2 = {};
+      ev2.eventInfo = {
+        'type': ctConstants.trackEvent,
+        'eventAction': ctConstants.registration,
+        'eventLabel': "https://www.promounilever.com/ctskip",
+        'eventValue': 1,
+      };
+      ev2.category = { 'primaryCategory': ctConstants.engagement }
+      ev2.subcategory = 'Lead';
+      digitalData.event.push(ev2)
+    }
+  
+              function googleCompleteRegistration() {
+      var ev2 = {};
+      ev2.eventInfo = {
+        'type': ctConstants.trackEvent,
+        'eventAction': ctConstants.registration,
+        'eventLabel': "https://www.promounilever.com/ctskip",
+        'eventValue': 1,
+      };
+      ev2.category = { 'primaryCategory': ctConstants.engagement }
+      ev2.subcategory = 'Lead';
+      digitalData.event.push(ev2)
+    }
+  
+    </script>
+    <script src="//assets.adobedtm.com/e6bd1902389a/0c42a94ee42f/launch-edc5891416f7.min.js" async></script>
+    <!-- script adobe launch -->
+    <script>(function(g,b,d,f){(function(a,c,d){if(a){var e=b.createElement("style");e.id=c;e.innerHTML=d;a.appendChild(e)}})(b.getElementsByTagName("head")[0],"at-body-style",d);setTimeout(function(){var a=b.getElementsByTagName("head")[0];if(a){var c=b.getElementById("at-body-style");c&&a.removeChild(c)}},f)})(window,document,"body {opacity: 0 !important}",3E3);
+
+    </script>
+
+
+
+
+</head>
+<style>
+
+</style>
+<body>
+
+
+<!-- 
+
+  <div class="blob"> -->
+    <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+    
+<!--<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+    <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+    </svg>
+  </div>
+-->
+
+<div class="container  animate__animated  animate__fadeInUp">
+  <div class="row">
+  <div class="col-12 justify-content-center">
+    <img src="./img/logo-ctskip.png" class="productoDesktop  float-left " style=" width: 20%; padding-left:4%" >
+
+      <img src="./img/logo-ctskip.png" class="productoTablet float-left  " style="width: 20%; padding-left:2%" >
+      <img src="./img/logo-ctskip.png" class="productoMobile  float-center mx-auto animate__bounceIn" style=" width: 40%;" >
+
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="container  animate__animated  animate__fadeIn">
+   
+    <br />
+    <div class="row">
+      <div class="col-12 col-md-3">
+     
+      </div>
+      <div class="col-12 col-md-6 elFormulario">
+        
+
+
+   <div class="row  animate__animated  animate__fadeIn">
+   
+
+
+
+
+       
+
+        <div class="col-xs-12 mt-3 mt-3 col-lg-3 ">
+
+          </div>
+
+
+        <div class="col-xs-12 mt-3 mt-3 fondoFormulario animate__animated  animate__fadeIn">
+          <div class="productoMobile">
+
+
+                  
+    
+       
+          </div>
+          <div class="exito animate__animated  animate__bounceInUp mx-auto" id="exito">
+            <br /><br /><br />
+            <img class="responsive mx-auto" src="img/exitos.png" style="width: 100%;">
+
+
+            <br /><br /><br /><br /><br />
+       
+          </div>
+          <div class="elformulario" id="elformulario">
+    
+        <div class="animate__animated  ">
+       
+</div>
+
+ 
+<form class="row g-3 needs-validation" id="registration" action ='./backend/analisis.php' novalidate>
+
+  
+   <!--    <form class="row g-3 needs-validation" id="formulario" action="backend/backend.php" action="POST" novalidate >
+   -->
+   <h1 class="titulo"><b class="nombres"> Formulario CTSKIP</b>
+  </h1>
+  <h2 class="disclaimer">Debe completarse un cuestionario por cada integrante del service, incluyendo dueño, encargado, técnicos, secretarias, etc.</h2>
+  <h3  class="subtitulo"> <b class="nombres">  * Campos Obligatorios</b></h3>
+ 
+
+
+
+  <div class="col-xs-12 mt-3" >
+    <label for="validationCustom01" class="form-label"><b>Nombre del service*:</b></label>
+       <input name="nombre_del_service" placeholder="Nombre del Service" type="text" class="form-control" id="validationCustom01" required>
+       <div class="valid-feedback">
+         ¡El nombre del service se vé bien!
+       </div>
+       <div class="invalid-feedback">
+         Ingresa el nombre del service
+       </div>
+     </div>
+
+
+
+ 
+           <div class="col-lg-6 mt-3" >
+            <label for="validationCustom01" class="form-label"><b>Nombre*:</b></label>
+             <input name="first_name" placeholder="Nombre" type="text" class="form-control" id="validationCustom01" required>
+             <div class="valid-feedback">
+               ¡El nombre se vé bien!
+             </div>
+             <div class="invalid-feedback">
+               Ingresa tu nombre
+             </div>
+           </div>
+
+
+           <div class="col-lg-6  mt-3">
+            
+               <label for="validationCustom02" class="form-label"><b>Apellido*:</b></label>
+             <input  name="last_name" placeholder="Apellido"  type="text" class="form-control" id="validationCustom02" required>
+             <div class="valid-feedback" >
+               ¡El apellido se vé bien!
+             </div>
+             <div class="invalid-feedback">
+               Ingresa tu apellido
+             </div>
+           </div>
+
+           
+           <div class="col-md-12  mt-3" >
+
+               <label for="validationCustom02" class="form-label"><b>Email*:</b></label>
+             <input  name="email" placeholder="Email"  type="text" class="form-control" id="validationCustom03" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$" required>
+             <div class="valid-feedback">
+               ¡Se vé bien!
+             </div>
+             <div class="invalid-feedback">
+               Ingresá un mail válido
+             </div>
+           </div>
+
+
+
+           <div class="col-md-12  mt-3" >
+            <label for="validationCustom02" class="form-label"><b class="nombres">DNI *:</b></label>
+          <input  name="cuit_cuil_dni" placeholder="DNI" pattern="\d{1,9}"  
+           minlength="6" maxlength="8" type="tel" class="form-control" id="validationCustom05" required>
+           <div class="valid-feedback">
+             ¡Se vé bien!
+           </div>
+           <div class="invalid-feedback">
+             Ingresá un DNI válido
+           </div>
+          </div>
+
+
+
+       <div class="col-md-12  mt-3" >
+
+         <!--    <label for="validationCustom02" class="form-label"><b>Email*:</b></label>-->
+         <label><b>Fecha de nacimiento*:</b></label>
+         <input  name="birthday" placeholder="Fecha de nacimiento"  type="date" class="form-control"  id="validationCustom04" required>
+         <div class="valid-feedback">
+           ¡Se vé bien!
+         </div>
+         <div class="invalid-feedback">
+           Ingresá una fecha de nacimiento válida
+         </div>
+       </div>
+
+       
+       <div class="col-xs-12 mt-3">
+        <label for="address_state" class="form-label"><b>Provincia en la que está radicado el Service: *:</b></label>
+         <select class="form-control" id="address_state" name="address_state" placeholder="">
+
+         <option value="-" disabled selected value>Lugar de residencia...</option>
+   
+         <option value="Buenos Aires (GBA)">Buenos Aires (GBA)</option>
+     <option value="Buenos Aires (interior)">Buenos Aires (interior)</option>
+     <option value="CABA">CABA</option>
+   <option value="Catamarca">Catamarca</option>
+   <option value="Chaco">Chaco</option>
+   <option value="Chubut">Chubut</option>
+   <option value="Cordoba">Córdoba</option>
+   <option value="Corrientes">Corrientes</option>
+   <option value="Entre Rios">Entre Ríos</option>
+   <option value="Formosa">Formosa</option>
+   <option value="Jujuy">Jujuy</option>
+   <option value="La Pampa">La Pampa</option>
+   <option value="La Rioja">La Rioja</option>
+   <option value="Mendoza">Mendoza</option>
+   <option value="Misiones">Misiones</option>
+   <option value="Neuquen">Neuquén</option>
+   <option value="Rio Negro">Río Negro</option>
+   <option value="Salta">Salta</option>
+   <option value="San Juan">San Juan</option>
+   <option value="San Luis">San Luis</option>
+   <option value="Santa Cruz">Santa Cruz</option>
+   <option value="Santa Fe">Santa Fe</option>
+   <option value="Santiago del Estero">Santiago del Estero</option>
+   <option value="Tierra del Fuego, Antartida e Islas del Atlantico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+   <option value="Tucuman">Tucumán</option>
+         
+       </select>
+       <div class="valid-feedback">
+        ¡Tu localidad se vé bien!
+      </div>
+      <div class="invalid-feedback">
+        Ingresa tu localidad
+      </div>
+      </div>
+
+
+      <div class="col-md-12  mt-3" >
+        <label for="validationCustom02" class="form-label"><b class="nombres"> Celular*:</b></label>
+                     <input  name="cellphone" placeholder="Teléfono"  type="tel" class="form-control" pattern="\d{1,20}"  id="validationCustom04" required>
+                     <div class="valid-feedback">
+                       ¡Se vé bien!
+                     </div>
+                     <div class="invalid-feedback">
+                       Ingresá un teléfono válido
+                     </div>
+                     <i class="helperer">(Completar código de área sin 15 y sin guiones ni espacios. Ej.: 01161619999)</i>
+                   </div>
+       
+
+           
+
+           <div class="col-xs-12 mt-3">
+             <label for="talle_de_ropa" class="form-label"><b>Talle de ropa*:</b></label>
+              <select class="form-control" id="talle_de_ropa" name="talle_de_ropa" placeholder="">
+   
+     
+        
+              <option value="s">s</option>
+          <option value="m">m</option>
+          <option value="l">l</option>
+          <option value="xl">xl</option>
+          <option value="xxl">xxl</option>
+     
+              
+            </select>
+            <div class="valid-feedback">
+             ¡Se vé bien!
+           </div>
+           <div class="invalid-feedback">
+             Por favor selecciona tu talle de ropa
+           </div>
+           </div>
+   
+           <!--
+           <div class="col-md-12" >-->
+             <!--    <label for="validationCustom02" class="form-label"><b>Email*:</b></label>-->
+             <!-- <input  name="cuit_cuil_dni" placeholder="DNI" pattern="\d{1,9}"  
+             minlength="6" maxlength="8" type="tel" class="form-control" id="validationCustom05" required>
+             <div class="valid-feedback">
+               ¡Se vé bien!
+             </div>
+             <div class="invalid-feedback">
+               Ingresá un DNI válido
+             </div>
+           </div>
+         -->
+
+         
+<!-- Multiple Radios -->
+<div class="col-xs-12 mt-3" >
+
+
+  <label class="col-md-12 control-label" for="estas_incluido_en_las_listas_de_whatsapp_del_cts"><b>¿Estás incluído en las listas de Whatsapp del CTS?</b> </label>
+  <div class="col-md-12">
+  <div class="radio">
+    <label for="estas_incluido_en_las_listas_de_whatsapp_del_cts-0">
+      <input type="radio"  class="myinput large" name="estas_incluido_en_las_listas_de_whatsapp_del_cts" id="estas_incluido_en_las_listas_de_whatsapp_del_cts-0" value="1" checked="checked">
+      Sí
+    </label>
+  </div>
+  <div class="radio">
+    <label for="estas_incluido_en_las_listas_de_whatsapp_del_cts-1">
+      <input type="radio"  class="myinput large" name="estas_incluido_en_las_listas_de_whatsapp_del_cts" id="estas_incluido_en_las_listas_de_whatsapp_del_cts-1" value="0">
+      No
+    </label>
+  </div>
+  </div>
+ 
+  <div class="valid-feedback">
+    ¡Se vé bien!
+  </div>
+  <div class="invalid-feedback">
+    Elige una opción
+  </div>
+ </div>
+ 
+ <!-- Multiple Radios -->
+ <div class="form-group mt-3" >
+  <label class="col-md-12 control-label" for="sos_miembro_del_grupo_de_facebook_del_cts"><b>¿Sos miembro del grupo de Facebook del CTS? *</b></label>
+  <div class="col-md-12">
+  <div class="radio">
+    <label for="sos_miembro_del_grupo_de_facebook_del_cts-0">
+      <input type="radio"  class="myinput large" name="sos_miembro_del_grupo_de_facebook_del_cts" id="sos_miembro_del_grupo_de_facebook_del_cts-0" value="1" checked="checked">
+      Sí
+    </label>
+  </div>
+  <div class="radio">
+    <label for="sos_miembro_del_grupo_de_facebook_del_cts-1">
+      <input type="radio"  class="myinput large" name="sos_miembro_del_grupo_de_facebook_del_cts" id="sos_miembro_del_grupo_de_facebook_del_cts-1" value="0">
+      No
+    </label>
+  </div>
+  </div>
+  
+  <div class="valid-feedback">
+    ¡Se vé bien!
+  </div>
+  <div class="invalid-feedback">
+    Elige una opción
+  </div>
+ </div>
+ 
+ <!-- Multiple Radios -->
+ <div class="form-group mt-3" >
+  <label class="col-md-12 control-label" for="usas_instagram_como_red_social"><b>¿Usás Instagram cómo red social?</b> </label>
+  <div class="col-md-12">
+  <div class="radio">
+    <label for="usas_instagram_como_red_social-0">
+      <input type="radio"  class="myinput large" name="usas_instagram_como_red_social" id="usas_instagram_como_red_social-0" value="1" checked="checked">
+      Sí
+    </label>
+  </div>
+  <div class="radio">
+    <label for="usas_instagram_como_red_social-1">
+      <input type="radio"  class="myinput large" name="usas_instagram_como_red_social" id="usas_instagram_como_red_social-1" value="0">
+      No
+    </label>
+  </div>
+  </div>
+  
+  <div class="valid-feedback">
+    ¡Se vé bien!
+  </div>
+  <div class="invalid-feedback">
+    Elige una opción
+  </div>
+ </div>
+ 
+
+         <div class="col-xs-12 mt-3">
+           <label for="cual_es_tu_funcion_en_el_service" class="form-label"><b>¿Cuál es tu cargo/función en el service?: *</b></label>
+            <select class="form-control" id="cual_es_tu_funcion_en_el_service" name="cual_es_tu_funcion_en_el_service" placeholder="" onchange="cambiarOtro(this.value)">
+ 
+      
+            <option value="dueno" selected>Dueño</option>
+        <option value="encargado">Encargado</option>
+        <option value="tecnico">Técnico</option>
+        <option value="administrativo">Administrativo</option>
+        <option value="otro-6">Otro</option>
+   
+            
+          </select>
+          <div class="valid-feedback">
+           ¡Se vé bien!
+         </div>
+         <div class="invalid-feedback">
+           Por favor selecciona tu talle de ropa
+         </div>
+         </div>
+       
+
+<div class="sisosdueno mt-6" id="sisosduenio" >
+  <br />
+  <h4><b  class="sisosduenio">Si sos Dueño, por favor completa la siguiente información:</b></h4>
+  <i>Información sobre el Service:</i>
+
+  <br />
+
+  
+  <div class="col-xs-12 mt-3" >
+    <label for="validationCustom01" class="form-label"><b class="nombres"> Localidad en donde está radicado el Service:</b></label>
+       <input name="localidad_del_service" placeholder="Localidad" type="text" class="form-control" id="validationCustom01">
+       <div class="valid-feedback">
+         ¡La localidad se vé bien!
+       </div>
+       <div class="invalid-feedback">
+         Ingresa el nombre de la localidad.
+       </div>
+     </div>
+      
+             
+  <div class="col-xs-12 mt-3" >
+    <label for="validationCustom01" class="form-label"><b class="nombres"> Código Postal:</b></label>
+       <input name="address_postal_code" placeholder="Código Postal" type="text" class="form-control" id="validationCustom01">
+       <div class="valid-feedback">
+         ¡El código postal vé bien!
+       </div>
+       <div class="invalid-feedback">
+         Ingresa el código postal
+       </div>
+     </div>
+
+       
+  <div class="col-xs-12 mt-3" >
+    <label for="validationCustom01" class="form-label"><b class="nombres"> Dirección del Service (solo calle, número y si aplica piso/depto):</b></label>
+       <input name="address_" placeholder="Localidad" type="text" class="form-control" id="validationCustom01">
+       <div class="valid-feedback">
+         ¡La dirección se vé bien!
+       </div>
+       <div class="invalid-feedback">
+         Ingresa el nombre de la dirección.
+       </div>
+     </div>
+      
+
+
+  <div class="col-md-12  mt-3" >
+    <label for="validationCustom02" class="form-label"><b class="nombres"> Teléfono del Service:</b></label>
+                 <input  name="phone" placeholder="Teléfono del Service"  type="tel" class="form-control" pattern="\d{1,20}"  id="validationCustom04" >
+                 <div class="valid-feedback">
+                   ¡Se vé bien!
+                 </div>
+                 <div class="invalid-feedback">
+                   Ingresá un teléfono válido
+                 </div>
+                 <i class="helperer">(Completar código de área sin 15 y sin guiones ni espacios. Ej.: 01161619999)</i>
+               </div>
+   
+
+           
+  <div class="col-md-12  mt-3" >
+
+    <label for="validationCustom02" class="form-label"><b>Email Oficial:</b></label>
+  <input  name="email_oficial" placeholder="Email"  type="text" class="form-control" id="validationCustom03" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}$"  >
+  <div class="valid-feedback">
+    ¡Se vé bien!
+  </div>
+  <div class="invalid-feedback">
+    Ingresá un mail válido
+  </div>
+</div>
+
+
+
+  <div class="col-md-12  mt-3" >
+    <label for="validationCustom02" class="form-label"><b class="nombres">Cantidad de personal (incluyendo el dueño):</b></label>
+  <input  name="cantidad_de_personal" placeholder="Cantidad de personal (incluyendo el dueño)" pattern="\d{1,9}"  
+   type="tel" class="form-control" id="validationCustom05"  >
+   <div class="valid-feedback">
+     ¡Se vé bien!
+   </div>
+   <div class="invalid-feedback">
+    Ingresá solamente números por favor
+   </div>
+  </div>
+
+
+  <!-- Select Basic -->
+  <div class="form-group mt-3">
+    <label class="col-md-12 control-label" for="taller_y_local_o_solo_taller"><b>¿Taller y local o solo taller?</b></label>
+    <div class="col-xs-12 mt-3">
+      <select id="taller_y_local_o_solo_taller" name="taller_y_local_o_solo_taller" class="form-control">
+        <option value="-" disabled selected value> Elegí taller / local...</option>
+        <option value="taller_y_local">Taller y Local</option>
+        <option value="solo_taller">Sólo Taller</option>
+      </select>
+    </div>
+  </div>
+  
+  
+  <!-- Select Basic -->
+  <div class="form-group mt-3">
+    <label class="col-md-12 control-label" for="reparacion_venta_de_repuestos_o_electrodomesticos"><b>¿Reparación, Venta de repuestos o electrodomésticos?</b></label>
+    <div class="col-xs-12 mt-3">
+      <select id="reparacion_venta_de_repuestos_o_electrodomesticos" name="reparacion_venta_de_repuestos_o_electrodomesticos" class="form-control">
+        <option value="-" disabled selected value> Elegí reparación venta de repuestos...</option>
+        <option value="solo_reparacion">Solo reparación</option>
+        <option value="reparacion_y_venta_de_repuestos">Reparación y venta de repuestos</option>
+        <option value="reparacion_y_venta_de_repuestos_y_electrodomesticos">Reparación y venta de repuestos y de electrodomésticos</option>
+      </select>
+    </div>
+  </div>
+  
+  
+  <!-- Select Basic -->
+  <div class="form-group mt-3">
+    <label class="col-md-12 control-label" for="que_reparan"><b>¿Qué reparan? </b></label>
+    <div class="col-xs-12 mt-3">
+      <select id="que_reparan" name="que_reparan" class="form-control">
+        <option value="-" disabled selected value> Elegí los electrodomésticos que reparan...</option>
+        <option value="lavarropas-1">Lavarropas</option>
+        <option value="lavavajillas">Lavavajillas</option>
+        <option value="heladeras">Heladeras</option>
+        <option value="otro-7">Otros</option>
+      </select>
+    </div>
+  </div>
+  
+  
+  <!-- Select Basic -->
+  <div class="form-group mt-3">
+    <label class="col-md-12 control-label" for="de_que_marcas_es_service_oficial"><b>¿De qué marcas es service oficial? </b></label>
+    <div class="col-xs-12 mt-3">
+      <select id="de_que_marcas_es_service_oficial" name="de_que_marcas_es_service_oficial" class="form-control">
+        <option value="-" disabled selected value> Elegí qué marcas es service oficial...</option>
+        <option value="candy">Candy</option>
+        <option value="drean_aurora">Drean / Aurora</option>
+        <option value="electrolux">Electrolux</option>
+        <option value="g_e_mabe">G.E. / Mabe</option>
+        <option value="lg">LG</option>
+        <option value="longvie">Longvie</option>
+        <option value="samsung">Samsung</option>
+        <option value="otras-2">Otras</option>
+      </select>
+    </div>
+  </div>
+  
+  <br />
+</div>
+
+   
+
+
+
+
+<!-- Select Basic -->
+            <div class="col-12  mt-3">
+              <div class="form-check">
+                <input name="mayor_18_anos" value="1" class="form-check-input" type="checkbox"  id="mayor_18_anos" required>
+                <label class="form-check-label" for="mayor_18_anos">
+                  Soy Mayor de 18 años *
+                </label>
+                <div class="invalid-feedback">
+                 Debés ser mayor a 18 años
+                </div>
+              </div>
+            </div>
+            <div class="col-12  mt-3">
+              <div class="form-check">
+                <input name="allow_brand" value="1" class="form-check-input" type="checkbox" id="allow_brand">
+                <label class="form-check-label" for="allow_brand">
+                   
+                  Acepto que Skip me envíe información, promociones, invitaciones y/o encuestas.
+                        
+                </label>
+      
+              </div>
+            </div>
+
+            <div class="col-12  mt-3">
+              <div class="form-check">
+                <input name="allow_global" value="1" class="form-check-input" type="checkbox"  id="allow_global">
+                <label class="form-check-label" for="allow_global">
+                  
+                  Acepto que Unilever me envíe información, promociones, invitaciones y/o encuestas de sus marcas o productos.  
+                </label>
+          
+              </div>
+            </div>
+
+           <!--  <div class="col-12">
+              <div class="form-check">
+                <input name="acepto_bases_y_condiciones" value="1" class="form-check-input" type="checkbox" id="acepto_bases_y_condiciones" required>
+                <label class="form-check-label" for="acepto_bases_y_condiciones">
+                   
+                  Acepto los términos y condiciones*     </label>
+                  <b type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <u>Ver bases y condiciones</u>
+                  </b>
+             
+                <div class="invalid-feedback">
+                  Debés aceptar las bases y condiciones
+                </div>
+              </div>
+            </div>
+            <div>-->
+
+            
+            </div><script>
+              $('.select2').select2();
+          </script>
+          
+
+              <div class="col-xs-12 mt-3 mt-3 disclaimer">
+              <br />
+              <p style=" font-size: 0.7em;">
+              En Unilever estamos comprometidos con la protección de su privacidad y de su información personal. Para obtener más información, visite nuestro <a  href="https://www.unilevernotices.com/argentina/spanish/privacy-notice/notice.html" target="_blank" style="color: #fff">
+                <u><b class="nombres"> Aviso de privacidad</b></u> </a>y <a  href="https://www.unilevernotices.com/argentina/spanish/cookie-notice/notice.html" target="_blank" style="color: #fff">
+                  <u><b class="nombres"> Aviso de cookies.</b></u></a></p>
+                </b>
+
+          
+            
+              </div>
+
+
+
+
+            <div class="col-12 d-grid gap-2">
+              <button class="btn btn-primary mt-10" type="submit"><b> PARTICIPAR</b></button>
+            </div>
+            <br />
+
+            <div class="col-12 agencia" >
+           <p style=" font-size: 0.7em;">
+              
+
+              “La agencia de acceso a la información Pública en su carácter de Órgano de Control de la Ley N° 25.326,tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas
+              vigentes en materia de protección de datos personales”
+          
+            </p></div>
+          </form>
+        </div>
+        
+       
+
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+     
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <footer>
+    
+<!--Waves Container-->
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
+  <!--Waves end-->
+  
+  </div>
+  <!--Header ends-->
+  </footer>
+
+
+  
+      <!-- JavaScript and dependencies -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+      <script src="enchanter.js"></script>
+      <script>
+        var registrationForm = $('#registration');
+        var formValidate = registrationForm.validate({
+          errorClass: 'is-invalid',
+          errorPlacement: () => false
+        });
+    
+        const wizard = new Enchanter('registration', {}, {
+          onNext: () => {
+            if (!registrationForm.valid()) {
+              formValidate.focusInvalid();
+              return false;
+            }
+          }
+        });
+      </script>
+
+<a href="#" class="back-to-top"> <span class="mdi  mdi-arrow-up-bold-circle laFlecha" ></span></a>
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+'use strict'
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+var forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.prototype.slice.call(forms)
+.forEach(function (form) {
+  form.addEventListener('submit', function (event) {
+ 
+    if (!form.checkValidity()) {
+      event.preventDefault()
+      event.stopPropagation()
+   
+    }else{
+     alert("YATTA!");
+    enviar();
+    cerrarformulario();
+      completeRegistration();
+      paraArriba()
+
+
+
+    }
+  
+form.classList.add('was-validated')  
+  
+  }, false)
+  
+})
+})()
+</script>
+
+</body>
+</html>
